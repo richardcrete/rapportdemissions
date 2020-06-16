@@ -14,7 +14,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header functionChooseChapter={this.chooseChapter} />
-        {this.displayChapter}
+        {/* {this.displayChapter} */}
       </div>
     );
   }
@@ -25,19 +25,19 @@ class App extends React.Component {
     }
   }
 
-  displayChapter(){
-    if(this.state.chapter == 'intro'){
-      <Intro />
-    }
-    if(this.state.chapter == 'wordpress'){
-      <Wordpress />
-    }
-    if(this.state.chapter == 'react'){
-      <React />
-    }
-    if(this.state.chapter == 'conclusion'){
-      <Conclu />
-    }
-  }
+  // displayChapter(){
+  //   if(this.state.chapter == 'intro'){
+  //     <Intro />
+  //   }
+  //   if(this.state.chapter == 'wordpress'){
+  //     <Wordpress />
+  //   }
+  //   if(this.state.chapter == 'react'){
+  //     <React />
+  //   }
+  //   if(this.state.chapter == 'conclusion'){
+  //     <Conclu />
+  //   }
+  // }
 }
 export default App;
