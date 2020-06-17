@@ -16,7 +16,7 @@ class Header extends React.Component {
 
                 <nav>
                     <a
-                        id="intro"
+                        id="intro" className="active"
                         onClick={(event) => {
                             event.preventDefault();
                             this.props.functionChooseChapter(event.target.id);
@@ -55,6 +55,12 @@ class Header extends React.Component {
             </header>
         )
     }
+    
+    componentDidUpdate = () => {
+        document.querySelector('.active').classList.remove('active');
+        document.querySelector('#'+this.props.active).classList.add('active');
+    }
+
 }
 
 export default Header;

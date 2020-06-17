@@ -13,8 +13,10 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Header functionChooseChapter={this.chooseChapter} />
-        {/* {this.displayChapter} */}
+        <Header active={this.state.chapter} functionChooseChapter={this.chooseChapter} />
+        <main>
+          {/* {this.displayChapter} */}
+        </main>
       </div>
     );
   }
