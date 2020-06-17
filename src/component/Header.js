@@ -31,7 +31,7 @@ class Header extends React.Component {
                             this.props.functionChooseChapter(event.target.id);
                         }}
                         href="wordpress">
-                        Partie 1 - Wordpress
+                        Partie 1 - WordPress
                     </a>
                     <a
                         id="react"
