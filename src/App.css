@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
 
-html *{
-  font-family: 'Roboto', sans-serif!important;
+html{
+  font-family: 'Raleway', sans-serif!important;
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
 }
 
 main{
@@ -13,4 +19,78 @@ main{
   grid-template-columns: 15% auto;
   grid-template-rows: 100vh;
   grid-template-areas: "header main";
+}
+
+.pagegarde{
+  padding-left: 2%;
+  padding-right: 2%;  
+  height: 100vh;
+  background-color: #1E2046;
+  background-size: 125% 125%;
+  color: #ffffff;
+}
+
+.wrapper{
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 10%;
+}
+
+.wrapper > *{
+  margin: 0;
+}
+
+h1{
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.wrapper h2{
+  font-size: 70px;
+  margin-top: -20px;
+  background: linear-gradient(90deg, #5a80ef, #34d5b0);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wrapper h3{
+  margin-top: 25px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.wrapper > p{
+  margin-top: 15px;
+}
+
+.next{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  color: #ffffff;
+  height: 50px;
+  width: 200px;
+  background: linear-gradient(90deg, #5a80ef, #34d5b0);
+  margin-top: 50px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.next:hover{
+  background: #2C416F;
+}
+
+#remerciements{
+  background: #F6FDFF;
+  padding: 2%;
+  height: 100vh;
+}
+
+.h2{
+  font-size: 40px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #5a80ef, #34d5b0);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

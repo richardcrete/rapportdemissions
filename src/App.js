@@ -1,12 +1,13 @@
 import React from 'react';
 import Header from './component/Header';
+import Accueil from './component/Accueil';
 import './App.css';
 
 class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      chapter: 'intro',
+      chapter: 'accueil',
     }
   }
 
@@ -15,7 +16,7 @@ class App extends React.Component {
       <div className="App">
         <Header active={this.state.chapter} functionChooseChapter={this.chooseChapter} />
         <main>
-          {/* {this.displayChapter} */}
+          {this.displayChapter()}
         </main>
       </div>
     );
@@ -27,10 +28,14 @@ class App extends React.Component {
     }
   }
 
-  // displayChapter(){
-  //   if(this.state.chapter == 'intro'){
-  //     <Intro />
-  //   }
+  displayChapter(){
+    console.log(this.state.chapter)
+    if(this.state.chapter == 'accueil'){
+      return(<Accueil />);
+    }
+    // if(this.state.chapter == 'intro'){
+    //   <Intro />
+    // }
   //   if(this.state.chapter == 'wordpress'){
   //     <Wordpress />
   //   }
@@ -40,6 +45,6 @@ class App extends React.Component {
   //   if(this.state.chapter == 'conclusion'){
   //     <Conclu />
   //   }
-  // }
+  }
 }
 export default App;

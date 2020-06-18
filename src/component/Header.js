@@ -4,19 +4,23 @@ import '../css/Header.css';
 class Header extends React.Component {
     constructor() {
         super();
-        this.state = {
-            intro : 'intro',
-        }
     }
 
     render() {
         return (
             <header>
-                <p>Richard Crété - Rapport de missions</p>
-
                 <nav>
                     <a
-                        id="intro" className="active"
+                        id="accueil" className="active"
+                        onClick={(event) => {
+                            event.preventDefault();
+                            this.props.functionChooseChapter(event.target.id);
+                        }}
+                        href="accueil">
+                        Accueil
+                    </a>
+                    <a
+                        id="intro"
                         onClick={(event) => {
                             event.preventDefault();
                             this.props.functionChooseChapter(event.target.id);
@@ -55,10 +59,10 @@ class Header extends React.Component {
             </header>
         )
     }
-    
+
     componentDidUpdate = () => {
         document.querySelector('.active').classList.remove('active');
-        document.querySelector('#'+this.props.active).classList.add('active');
+        document.querySelector('#' + this.props.active).classList.add('active');
     }
 
 }
