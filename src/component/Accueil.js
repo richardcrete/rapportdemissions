@@ -20,12 +20,20 @@ class Accueil extends React.Component {
                     </div>
                 </div>
                 <section id="remerciements">
-                    <h2 className="h2">Remerciements</h2>
-                    <p>J’aimerais remercier toutes les personnes qui ont participé de près ou de loin à la réussite de mon apprentissage.</p>
-                    <p>Je remercie Nicolas LOUIS, dirigeant de Mobytic et Tuteur en entreprise, pour son recrutement, tous ses conseils et les nouveautés que j'ai pu apprendre au sein de l’agence ces mois d'apprentissage.</p>
-                    <p>Je remercie Raphaël DE OLIVEIRA, mon collègue, qui m'a fait beaucoup de cours et d'exercices sur ReactJS.</p>
-                    <p>Je remercie Sébastien LEHMANN, mon tuteur pédagogique, qui a fait le déplacement (et un rendez-vous à distance !) pour me suivre et voir mon travail.</p>
-                    <p>Je voudrais remercier toutes les personnes qui m’ont aidé à la rédaction de ce rapport de stage : Nicolas LOUIS et ma famille.</p>
+                    <div className="wrapper-section">
+                        <h2 className="h2">Remerciements</h2>
+                        <p>J’aimerais remercier toutes les personnes qui ont participé de près ou de loin à la réussite de mon apprentissage.</p>
+                        <p>Je remercie Nicolas LOUIS, dirigeant de Mobytic et Tuteur en entreprise, pour son recrutement, tous ses conseils et les nouveautés que j'ai pu apprendre au sein de l’agence ces mois d'apprentissage.</p>
+                        <p>Je remercie Raphaël DE OLIVEIRA, mon collègue, qui m'a fait beaucoup de cours et d'exercices sur ReactJS.</p>
+                        <p>Je remercie Sébastien LEHMANN, mon tuteur pédagogique, qui a fait le déplacement (et un rendez-vous à distance !) pour me suivre et voir mon travail.</p>
+                        <p>Je voudrais remercier toutes les personnes qui m’ont aidé à la rédaction de ce rapport de stage : Nicolas LOUIS et ma famille.</p>
+                        <a id="intro" onClick={(event) => {
+                            event.preventDefault();
+                            this.props.functionChooseChapter(event.target.id);
+                        }} className="next" href="intro">
+                            Lire la suite
+                        </a>
+                    </div>
                 </section>
             </div>
         )

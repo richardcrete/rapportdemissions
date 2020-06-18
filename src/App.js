@@ -31,7 +31,7 @@ class App extends React.Component {
   displayChapter(){
     console.log(this.state.chapter)
     if(this.state.chapter === 'accueil'){
-      return(<Accueil />);
+      return(<Accueil functionChooseChapter={this.chooseChapter} />);
     }
     // if(this.state.chapter == 'intro'){
     //   <Intro />

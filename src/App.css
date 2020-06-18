@@ -81,13 +81,22 @@ h1{
   background: #2C416F;
 }
 
+section{
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.wrapper-section{
+  padding-top: 2%;
+}
+
 #remerciements{
   background: #F6FDFF;
-  padding: 2%;
   height: 100vh;
 }
 
 .h2{
+  margin-top: 0;
   font-size: 40px;
   font-weight: 800;
   background: linear-gradient(90deg, #5a80ef, #34d5b0);
