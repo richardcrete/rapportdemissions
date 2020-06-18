@@ -31,7 +31,7 @@ class Accueil extends React.Component {
                             event.preventDefault();
                             this.props.functionChooseChapter(event.target.id);
                         }} className="next" href="intro">
-                            Lire la suite
+                            Lire l'introduction
                         </a>
                     </div>
                 </section>
