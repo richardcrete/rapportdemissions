@@ -30,7 +30,7 @@ class App extends React.Component {
 
   displayChapter(){
     console.log(this.state.chapter)
-    if(this.state.chapter == 'accueil'){
+    if(this.state.chapter === 'accueil'){
       return(<Accueil />);
     }
     // if(this.state.chapter == 'intro'){
