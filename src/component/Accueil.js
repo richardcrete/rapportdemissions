@@ -14,7 +14,7 @@ class Accueil extends React.Component {
                         <h4>Tuteur pédagogique : Sébastien Lehmann</h4>
                         <p>Université de Haute Alsace - IUT de Mulhouse - Département MMI (60 rue Albert Camus 68200 Mulhouse)</p>
                         <p>Mobytic (9 rue des Franciscains 68100 Mulhouse)</p>
-                        <a className="next" href="#remerciements">
+                        <a className="next" href="/#remerciements">
                             Lire mon rapport
                         </a>
                     </div>
@@ -29,7 +29,7 @@ class Accueil extends React.Component {
                         <p>Je voudrais remercier toutes les personnes qui m’ont aidé à la rédaction de ce rapport de stage : <span>Nicolas LOUIS et ma famille</span>.</p>
                         <a id="intro" onClick={(event) => {
                             this.props.functionChooseChapter(event.target.id);
-                        }} className="next" href="#">
+                        }} className="next" href="/#">
                             Lire l'introduction
                         </a>
                     </div>

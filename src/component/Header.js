@@ -13,7 +13,7 @@ class Header extends React.Component {
                             
                             this.props.functionChooseChapter(event.target.id);
                         }}
-                        href="#">
+                        href="/#">
                         Accueil
                     </a>
                     <a
@@ -22,7 +22,7 @@ class Header extends React.Component {
                             
                             this.props.functionChooseChapter(event.target.id);
                         }}
-                        href="#">
+                        href="/#">
                         Introduction
                     </a>
                     <a
@@ -31,7 +31,7 @@ class Header extends React.Component {
                             
                             this.props.functionChooseChapter(event.target.id);
                         }}
-                        href="#">
+                        href="/#">
                         Partie 1 - WordPress
                     </a>
                     <a
@@ -40,7 +40,7 @@ class Header extends React.Component {
                             
                             this.props.functionChooseChapter(event.target.id);
                         }}
-                        href="#">
+                        href="/#">
                         Partie 2 - React
                     </a>
                     <a
@@ -49,7 +49,7 @@ class Header extends React.Component {
                             
                             this.props.functionChooseChapter(event.target.id);
                         }}
-                        href="#">
+                        href="/#">
                         Conclusion
                     </a>
                     <a
@@ -58,7 +58,7 @@ class Header extends React.Component {
                             
                             this.props.functionChooseChapter(event.target.id);
                         }}
-                        href="#">
+                        href="/#">
                         Annexes
                     </a>
                 </nav>
@@ -68,7 +68,7 @@ class Header extends React.Component {
 
     componentDidUpdate = () => {
         document.querySelector('.active').classList.remove('active');
-        document.querySelector('#' + this.props.active).classList.add('active');
+        document.querySelector('/#' + this.props.active).classList.add('active');
     }
 
 }

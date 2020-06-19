@@ -10,7 +10,7 @@ class Intro extends React.Component {
                         <h1>Rapport de missions</h1>
                         <h2>Introduction</h2>
                         <h3>Contexte<br></br>Présentation de Mobytic</h3>
-                        <a className="next" href="#contexte">
+                        <a className="next" href="/#contexte">
                             Lire l'introduction
                         </a>
                     </div>
@@ -41,7 +41,7 @@ class Intro extends React.Component {
                         </div>
                         <a id="wordpress" onClick={(event) => {
                             this.props.functionChooseChapter(event.target.id);
-                        }} className="next" href="#">
+                        }} className="next" href="/#">
                             Lire la Partie 1
                         </a>
                     </div>
