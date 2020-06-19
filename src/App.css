@@ -16,7 +16,7 @@ main{
 
 .App{
   display: grid;
-  grid-template-columns: 20% auto;
+  grid-template-columns: 10% auto;
   grid-template-rows: 100vh;
   grid-template-areas: "header main";
 }
@@ -134,4 +134,19 @@ span{
 
 .legend{
   font-style: italic;
+}
+
+.wrapper-annexes{
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-annexes img{
+  margin: auto;
+  max-width: 80%;
+}
+
+.wrapper-annexes p{
+  margin: auto;
+  margin-top: 20px;
 }

@@ -7,8 +7,8 @@ class Wordpress extends React.Component {
                 <div className="pagegarde">
                     <div className="wrapper">
                         <h1>Rapport de missions</h1>
-                        <h2>Partie 1 - Wordpress</h2>
-                        <h3>Utilisation d'un thème premium<br></br>Personnalisation d’un thème par la CSS personnalsée<br></br>Création de pages et des produits<br></br>Construction de Mega Menu<br></br>Paramétrage et personnalisation de Filtres WooCommerce en AJAX<br></br>Intégration d’un Feed Instagram SANS plugin</h3>
+                        <h2>Partie 1 - WordPress</h2>
+                        <h3>Utilisation d'un thème premium<br></br>Personnalisation d’un thème par la CSS personnalisée<br></br>Création de pages et des produits<br></br>Construction de Mega Menu<br></br>Paramétrage et personnalisation de Filtres WooCommerce en AJAX<br></br>Intégration d’un Feed Instagram SANS plugin</h3>
                         <a className="next" href="/#avada">
                             Lire la Partie 1
                         </a>
@@ -35,11 +35,11 @@ class Wordpress extends React.Component {
                 </section>
                 <section id="cssPersonnalisee" className="sombre vh">
                     <div className="wrapper-section">
-                        <h2 className="h2">Personnalisation d’un thème par la CSS personnalsée</h2>
+                        <h2 className="h2">Personnalisation d’un thème par la CSS personnalisée</h2>
                         <p>Malgré tout ce que peut faire Avada, les clients ont parfois <span>des demandes très précises</span> qui nécéssitent l'intervention de CSS personnalisée.</p>
                         <p>Le client Biodesiv par exemple souhaitait voir la loupe de recherche à gauche dans le menu, ce qu'on ne peut pas configurer dans Wordpress car il est admis que la loupe se positionne à droite. J'ai donc ajouté de la CSS personnalisée en sélectionnant l'id de l'élément loupe du menu, puis en le replaçant. <a id="annexes" onClick={(event) => { this.props.functionChooseChapter(event.target.id); }} href="/#">(Annexe 2)</a></p>
-                        <p>Biodesiv a transmis un besoin très précis sur le plan du design. Je suis intervenu sur plusieurs choses dans le site et particulièrement sur le formulaire de contact. Pour arriver à un résultat ressemblant à la maquette, j'ai dû ajouter des class aux champs du formulaire dans le plugin Contact Form 7, puis en les stylisant avec du CSS. (Annexe 5) <a id="annexes" onClick={(event) => { this.props.functionChooseChapter(event.target.id); }} href="/#">(Annexe 3)</a></p>
-                        <p>Le client Mamakya souhaitait un espace plus grand entre deux éléments de son menu. Comme pour Biodesiv, j'ai sélectionné l'élément du menu, puis je l'ai écarté. (Annexe 3) <a id="annexes" onClick={(event) => { this.props.functionChooseChapter(event.target.id); }} href="/#">(Annexe 4)</a></p>
+                        <p>Biodesiv a transmis un besoin très précis sur le plan du design. Je suis intervenu sur plusieurs choses dans le site et particulièrement sur le formulaire de contact. Pour arriver à un résultat ressemblant à la maquette, j'ai dû ajouter des class aux champs du formulaire dans le plugin Contact Form 7, puis en les stylisant avec du CSS. <a id="annexes" onClick={(event) => { this.props.functionChooseChapter(event.target.id); }} href="/#">(Annexe 3)</a></p>
+                        <p>Le client Mamakya souhaitait un espace plus grand entre deux éléments de son menu. Comme pour Biodesiv, j'ai sélectionné l'élément du menu, puis je l'ai écarté. <a id="annexes" onClick={(event) => { this.props.functionChooseChapter(event.target.id); }} href="/#">(Annexe 4)</a></p>
                         <p>Pour Mamakya, les filtres sur la page de la boutique disposaient d’une présentation basique alors que la demande de la cliente était plus qualitative. J’ai pris en charge la refonte totale de la CSS du système de filtrage pour les rendre conformes à la demande, en respectant la charte graphique du site. (Annexe 4) <a id="annexes" onClick={(event) => { this.props.functionChooseChapter(event.target.id); }} href="/#">(Annexe 5)</a></p>
                         <p>Pour les deux cas précis que sont Mamakya et Biodesiv, les clients voulaient un site multilingue. Pour ce faire, nous avons utilisé le plugin WPML. Ce plugin traduit tout, jusqu'au nom des id ou des class des éléments HTML. J'ai donc du faire pour chacun des clients une version française et une version anglaise du CSS. Ces versions sont indépendantes et on pourrait envisager des différences de style selon la langue choisie.</p>
                     </div>

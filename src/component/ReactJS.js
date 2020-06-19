@@ -27,10 +27,16 @@ class ReactJS extends React.Component {
                 </section>
                 <section id="autonomie" className="sombre vh">
                     <div className="wrapper-section">
-                        <h2 className="h2">Formation en autonomie</h2>
+                        <h2 className="h2">Formation en autonomie puis en pair programming</h2>
                         <p>J'ai débuté l'apprentissage de ReactJS en autonomie grâce à un cours OpenClassrooms conseillé par Raphaël DE OLIVEIRA. J'ai pu apprendre les bases de la librairie grâce à un exercice pratique, un pendu.</p>
-                        <p>Après ces quelques mois d'apprentissage tout seul, nous avons "profité" du confinement pour tester le pair programming avec Raphaël DE OLIVEIRA sur Discord. En général, la journée débutait par quelques heures de cours avant que je ne fasse quelques exercices inventés par mon collègue.</p>
-                        <p>Ces deux moyens d'apprentissage m'ont permis de trailler mes recherches lorsque j'étais en autonomie, et la communication, la concordance dans le code pendant le pair programming.</p>
+                        <p>Après ces quelques mois d'apprentissage tout seul, nous avons "profité" du confinement pour tester le pair programming avec Raphaël DE OLIVEIRA sur Discord. En général, la journée débutait par quelques heures de cours avant que je ne fasse quelques exercices inventés par mon collègue, tels que :</p>
+                        <ul>
+                            <li>connexion à une base de données</li>
+                            <li>recoltes de données sur une API</li>
+                            <li>création d'une API</li>
+                            <li>asynchronicité</li>
+                        </ul>
+                        <p>Ces deux moyens d'apprentissage m'ont permis d'affiner mes recherches lorsque j'étais en autonomie, et la communication, la concordance dans le code pendant le pair programming.</p>
                     </div>
                     <a id="conclusion" onClick={(event) => {
                         this.props.functionChooseChapter(event.target.id);

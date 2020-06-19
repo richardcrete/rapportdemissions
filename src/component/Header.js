@@ -41,7 +41,7 @@ class Header extends React.Component {
                             this.props.functionChooseChapter(event.target.id);
                         }}
                         href="/#">
-                        Partie 2 - React
+                        Partie 2 - ReactJS
                     </a>
                     <a
                         id="conclusion"
