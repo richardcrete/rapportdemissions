@@ -68,7 +68,7 @@ class Header extends React.Component {
 
     componentDidUpdate = () => {
         document.querySelector('.active').classList.remove('active');
-        document.querySelector('/#' + this.props.active).classList.add('active');
+        document.querySelector('#' + this.props.active).classList.add('active');
     }
 
 }
