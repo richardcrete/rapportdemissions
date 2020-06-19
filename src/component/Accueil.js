@@ -2,7 +2,7 @@ import React from "react";
 
 class Accueil extends React.Component {
     render() {
-        let alt = imgalt;
+        let alt = 'imgalt';
         return (
             <div>
                 <div className="pagegarde">
