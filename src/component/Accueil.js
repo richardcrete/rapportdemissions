@@ -2,7 +2,6 @@ import React from "react";
 
 class Accueil extends React.Component {
     render() {
-        let alt = 'imgalt';
         return (
             <div>
                 <div className="pagegarde">
@@ -28,7 +27,7 @@ class Accueil extends React.Component {
                         <p>Je remercie <span>Raphaël DE OLIVEIRA</span>, mon collègue, qui m'a fait beaucoup de cours et d'exercices sur ReactJS pour que je puisse progresser.</p>
                         <p>Je remercie <span>Sébastien LEHMANN</span>, mon tuteur pédagogique, qui a fait le déplacement (et un rendez-vous à distance !) pour me suivre et voir mon travail.</p>
                         <p>Je voudrais remercier toutes les personnes qui m’ont aidé à la rédaction de ce rapport de stage : <span>Nicolas LOUIS et ma famille</span>.</p>
-                        <a id="intro" alt={alt} onClick={(event) => {
+                        <a id="intro" onClick={(event) => {
                             this.props.functionChooseChapter(event.target.id);
                         }} className="next" href="/#">
                             Lire l'introduction
