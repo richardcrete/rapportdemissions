@@ -18,11 +18,17 @@ class Intro extends React.Component {
                 <section id="contexte" className="vh">
                     <div className="wrapper-section">
                         <h2 className="h2">Contexte</h2>
-                        <p>Dans le cadre de ma formation <span>Licence Professionnelle Métiers du numérique, conception, rédaction et réalisation web, parcours Webdesigner - WebDéveloppeur</span>, nous devions réaliser notre année <span>en apprentissage, en alternance dans une entreprise</span>. Je me suis naturellement tourné vers des agences web de Mulhouse. Après quelques mois de recherche sans succès, <span>l'entreprise Mobytic</span> avait émis une offre d'emploi car elle cherchait un apprenti. J’ai postulé et j’ai eu la joie d’être l’étudiant choisi.</p>
-                        <p>Pendant mon apprentissage, j'ai <span>construit des sites avec WordPress</span>. Je me suis aussi <span>formé à la création d'applications web avec la librairie ReactJS</span>.</p>
-                        <p>Pendant ces mois d'apprentissage, j'ai p u tirer une problématique de tout ce que j'ai appris :</p><h2 className="h2">Comment bien choisir la technologique que l'on doit utiliser en abordant un projet ?</h2>
-                        <p>Je vais répondre à cette problématique en décrivant les tâches que j'ai réalisées pour Mobytic. J'expliquerai dans un premier temps comment, grâce à WordPress, <span>faire un site vitrine ou e-commerce pour un besoin rapide</span>. Dans un second temps, je montrerai <span>ce que j'ai pu apprendre de ma formation sur ReactJS</span>.</p>
+                        <p>Dans le cadre de ma formation <span>Licence Professionnelle Métiers du numérique, conception, rédaction et réalisation web, parcours Webdesigner - WebDéveloppeur</span>, nous devions réaliser notre année en apprentissage, en alternance dans une entreprise. Je me suis naturellement tourné vers des agences web de Mulhouse. Après quelques recherches sans succès, l'entreprise Mobytic avait émis une offre d'emploi car elle cherchait un apprenti en développement web. J’ai postulé et j’ai eu la joie d’être l’étudiant choisi.</p>
+                        <p>Pendant mon apprentissage, j'ai <span>construit des sites avec WordPress</span>. Je me suis également <span>formé à la création d'applications web avec la librairie ReactJS</span>.</p>
+                        <p>Pendant ces mois d'apprentissage, au fil des missions, j'ai pu tirer une problématique qui aujourd'hui rythme mon quotidien de développeur web :</p><h2 className="h2">Comment choisir intelligemment une technologie pour un projet web ?</h2>
+                        <p>La réponse que je vais tenter d’apporter ici s’appuie sur le quotidien d’une agence pour laquelle j’ai travaillé sur des projets concrets.</p>
+                        <p>Je vais répondre à cette problématique en décrivant les tâches que j'ai réalisées pour Mobytic et mon évolution en tant que professionnel du web.</p>
+                        <p>J'expliquerai dans un premier temps comment, grâce à WordPress il est possible de réaliser un site vitrine ou e-commerce pour un besoin précis. Dans un second temps, je montrerai ce que j'ai pu apprendre de ma formation sur ReactJS car l’entreprise s’intéresse à ce langage pour évoluer dans son offre.</p>
+                        <p>Je précise que les clients cités dans ce rapport sont de vrais clients. L’entreprise Mobytic souhaite préserver une parfaite confidentialité de ces informations qui relèvent de son activité commerciale.</p>
                     </div>
+                    <a className="next" href="/#presentationMobytic">
+                        Lire la suite
+                    </a>
                 </section>
                 <section id="presentationMobytic" className="sombre vh">
                     <div className="wrapper-section">
@@ -35,6 +41,7 @@ class Intro extends React.Component {
                             <li>création d'applications mobiles</li>
                         </ul>
                         <p>J'ai intégré l'équipe en décembre 2019, entant qu'apprenti développeur web. La stratégie de Mobytic se fonde sur <span>la pérénité des activités classiques</span> (sites internet), et la volonté d'<span>aller vers des projets innovants</span> (logicels sur mesure et applications mobiles)</p>
+                        <p>Cette posture d’entreprise est encrée profondément dans le long terme. J’ai donc contribué au quotidien de l’entreprise tout en me formant à l’avenir.</p>
                         <div className="img">
                             <img width="10%" alt="" src={logo_mobytic}></img>
                             <p className="legend">Logo de Mobytic</p>

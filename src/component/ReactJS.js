@@ -8,13 +8,13 @@ class ReactJS extends React.Component {
                     <div className="wrapper">
                         <h1>Rapport de missions</h1>
                         <h2>Partie 2 - ReactJS</h2>
-                        <h3>Introduction et contexte<br></br>Formation en autonomie<br></br>Pair programming et exercies</h3>
-                        <a className="next" href="/#avada">
-                            Lire la Partie 1
+                        <h3>Introduction et contexte<br></br>Formation en autonomie<br></br>Pair programming et exercices</h3>
+                        <a className="next" href="/#introduction">
+                            Lire la Partie 2
                         </a>
                     </div>
                 </div>
-                <section id="avada" className="vh">
+                <section id="introduction" className="vh">
                     <div className="wrapper-section">
                         <h2 className="h2">Utilisation d'Avada</h2>
                         <p>WordPress est un CMS <span>permettant de créer un site vitrire ou une boutique en ligne facilement</span>.</p>
