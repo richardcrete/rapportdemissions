@@ -17,7 +17,7 @@ class ReactJS extends React.Component {
                 <section id="introduction" className="vh">
                     <div className="wrapper-section">
                         <h2 className="h2">Utilisation d'Avada</h2>
-                        <p>WordPress est un CMS <span>permettant de créer un site vitrire ou une boutique en ligne facilement</span>.</p>
+                        <p>ReactJS est une librairie </p>
                         <p>Mobytic utilise depuis quelques années <span>le thème premium nomé Avada</span>, commercialisé par Theme Fusion. Ce thème permet de faire des sites facilement, <span>grâce à une gestion poussée du design d'un site.</span> <a id="annexes" onClick={(event) => { this.props.functionChooseChapter(event.target.id); }} href="/#"> (Annexe 1)</a></p>
                         <p>Avada englobe aussi des plugins dont nous nous servons réguilièrement :</p>
                         <ul>
