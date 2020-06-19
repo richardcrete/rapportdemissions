@@ -46,6 +46,9 @@ class App extends React.Component {
     if (this.state.chapter === 'react') {
       return (<ReactJS functionChooseChapter={this.chooseChapter} />);
     }
+    // if (this.state.chapter === 'conclusion') {
+    //   return (<Conclusion functionChooseChapter={this.chooseChapter} />);
+    // }
     if (this.state.chapter === 'annexes') {
       return (<Annexes functionChooseChapter={this.chooseChapter} />);
     }
