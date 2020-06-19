@@ -10,47 +10,56 @@ class Header extends React.Component {
                     <a
                         id="accueil" className="active"
                         onClick={(event) => {
-                            event.preventDefault();
+                            
                             this.props.functionChooseChapter(event.target.id);
                         }}
-                        href="accueil">
+                        href="#">
                         Accueil
                     </a>
                     <a
                         id="intro"
                         onClick={(event) => {
-                            event.preventDefault();
+                            
                             this.props.functionChooseChapter(event.target.id);
                         }}
-                        href="intro">
+                        href="#">
                         Introduction
                     </a>
                     <a
                         id="wordpress"
                         onClick={(event) => {
-                            event.preventDefault();
+                            
                             this.props.functionChooseChapter(event.target.id);
                         }}
-                        href="wordpress">
+                        href="#">
                         Partie 1 - WordPress
                     </a>
                     <a
                         id="react"
                         onClick={(event) => {
-                            event.preventDefault();
+                            
                             this.props.functionChooseChapter(event.target.id);
                         }}
-                        href="react">
+                        href="#">
                         Partie 2 - React
                     </a>
                     <a
                         id="conclusion"
                         onClick={(event) => {
-                            event.preventDefault();
+                            
                             this.props.functionChooseChapter(event.target.id);
                         }}
-                        href="conclusion">
+                        href="#">
                         Conclusion
+                    </a>
+                    <a
+                        id="annexes"
+                        onClick={(event) => {
+                            
+                            this.props.functionChooseChapter(event.target.id);
+                        }}
+                        href="#">
+                        Annexes
                     </a>
                 </nav>
             </header>

@@ -1,13 +1,16 @@
 import React from 'react';
 import Header from './component/Header';
 import Accueil from './component/Accueil';
+import Intro from './component/Intro';
+import Wordpress from './component/Wordpress';
+import ReactJS from './component/ReactJS';
 import './App.css';
 
 class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      chapter: 'accueil',
+      chapter: 'wordpress',
     }
   }
 
@@ -28,23 +31,20 @@ class App extends React.Component {
     }
   }
 
-  displayChapter(){
-    console.log(this.state.chapter)
-    if(this.state.chapter === 'accueil'){
-      return(<Accueil functionChooseChapter={this.chooseChapter} />);
+  displayChapter() {
+    if (this.state.chapter === 'accueil') {
+      return (<Accueil functionChooseChapter={this.chooseChapter} />);
     }
-    // if(this.state.chapter == 'intro'){
-    //   <Intro />
-    // }
-  //   if(this.state.chapter == 'wordpress'){
-  //     <Wordpress />
-  //   }
-  //   if(this.state.chapter == 'react'){
-  //     <React />
-  //   }
-  //   if(this.state.chapter == 'conclusion'){
-  //     <Conclu />
-  //   }
+    if (this.state.chapter === 'intro') {
+      return (<Intro functionChooseChapter={this.chooseChapter} />);
+    }
+    if (this.state.chapter === 'wordpress') {
+      return (<Wordpress functionChooseChapter={this.chooseChapter} />);
+    }
+    if (this.state.chapter === 'react') {
+      return (<ReactJS functionChooseChapter={this.chooseChapter} />);
+    }
   }
 }
+
 export default App;
