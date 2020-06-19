@@ -36,7 +36,7 @@ class Intro extends React.Component {
                         </ul>
                         <p>J'ai intégré l'équipe en décembre 2019, entant qu'apprenti développeur web. La stratégie de Mobytic se fonde sur <span>la pérénité des activités classiques</span> (sites internet), et la volonté d'<span>aller vers des projets innovants</span> (logicels sur mesure et applications mobiles)</p>
                         <div className="img">
-                            <img width="10%" alt=""     src={logo_mobytic}></img>
+                            <img width="10%" alt="" src={logo_mobytic}></img>
                             <p className="legend">Logo de Mobytic</p>
                         </div>
                         <a id="wordpress" onClick={(event) => {

@@ -4,6 +4,8 @@ import Accueil from './component/Accueil';
 import Intro from './component/Intro';
 import Wordpress from './component/Wordpress';
 import ReactJS from './component/ReactJS';
+
+import Annexes from './component/Annexes';
 import './App.css';
 
 class App extends React.Component {
@@ -43,6 +45,9 @@ class App extends React.Component {
     }
     if (this.state.chapter === 'react') {
       return (<ReactJS functionChooseChapter={this.chooseChapter} />);
+    }
+    if (this.state.chapter === 'annexes') {
+      return (<Annexes functionChooseChapter={this.chooseChapter} />);
     }
   }
 }
